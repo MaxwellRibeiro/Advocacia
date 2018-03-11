@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btAndamentoProcessual.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btAndamentoProcessual.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btAndamentoProcessual.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btAndamentoProcessual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 3</value>
+  </data>
+  <data name="btAndamentoProcessual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 55</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btAndamentoProcessual.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btAndamentoProcessual.Text" xml:space="preserve">
+    <value>Andamento Processual</value>
+  </data>
+  <data name="&gt;&gt;btAndamentoProcessual.Name" xml:space="preserve">
+    <value>btAndamentoProcessual</value>
+  </data>
+  <data name="&gt;&gt;btAndamentoProcessual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btAndamentoProcessual.Parent" xml:space="preserve">
+    <value>pgCadastro</value>
+  </data>
+  <data name="&gt;&gt;btAndamentoProcessual.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btMovimentacao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btMovimentacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btMovimentacao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btMovimentacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 3</value>
+  </data>
+  <data name="btMovimentacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 55</value>
+  </data>
+  <data name="btMovimentacao.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btMovimentacao.Text" xml:space="preserve">
+    <value>Movimentação</value>
+  </data>
+  <data name="&gt;&gt;btMovimentacao.Name" xml:space="preserve">
+    <value>btMovimentacao</value>
+  </data>
+  <data name="&gt;&gt;btMovimentacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btMovimentacao.Parent" xml:space="preserve">
+    <value>pgCadastro</value>
+  </data>
+  <data name="&gt;&gt;btMovimentacao.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btProcesso.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btProcesso.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btProcesso.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btProcesso.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 3</value>
+  </data>
+  <data name="btProcesso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 55</value>
+  </data>
+  <data name="btProcesso.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btProcesso.Text" xml:space="preserve">
+    <value>Processo</value>
+  </data>
+  <data name="&gt;&gt;btProcesso.Name" xml:space="preserve">
+    <value>btProcesso</value>
+  </data>
+  <data name="&gt;&gt;btProcesso.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btProcesso.Parent" xml:space="preserve">
+    <value>pgCadastro</value>
+  </data>
+  <data name="&gt;&gt;btProcesso.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btCadastroComarca.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btCadastroComarca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btCadastroComarca.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btCadastroComarca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 3</value>
+  </data>
+  <data name="btCadastroComarca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 55</value>
+  </data>
+  <data name="btCadastroComarca.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btCadastroComarca.Text" xml:space="preserve">
+    <value>Comarca</value>
+  </data>
+  <data name="&gt;&gt;btCadastroComarca.Name" xml:space="preserve">
+    <value>btCadastroComarca</value>
+  </data>
+  <data name="&gt;&gt;btCadastroComarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btCadastroComarca.Parent" xml:space="preserve">
+    <value>pgCadastro</value>
+  </data>
+  <data name="&gt;&gt;btCadastroComarca.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btCadastroCliente.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btCadastroCliente.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btCadastroCliente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 3</value>
+  </data>
+  <data name="btCadastroCliente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 55</value>
+  </data>
+  <data name="btCadastroCliente.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btCadastroCliente.Text" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="&gt;&gt;btCadastroCliente.Name" xml:space="preserve">
+    <value>btCadastroCliente</value>
+  </data>
+  <data name="&gt;&gt;btCadastroCliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btCadastroCliente.Parent" xml:space="preserve">
+    <value>pgCadastro</value>
+  </data>
+  <data name="&gt;&gt;btCadastroCliente.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btAdvogado.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btAdvogado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btAdvogado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btAdvogado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="btAdvogado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 55</value>
+  </data>
+  <data name="btAdvogado.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btAdvogado.Text" xml:space="preserve">
+    <value>Advogado</value>
+  </data>
+  <data name="&gt;&gt;btAdvogado.Name" xml:space="preserve">
+    <value>btAdvogado</value>
+  </data>
+  <data name="&gt;&gt;btAdvogado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btAdvogado.Parent" xml:space="preserve">
+    <value>pgCadastro</value>
+  </data>
+  <data name="&gt;&gt;btAdvogado.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pgCadastro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="pgCadastro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="pgCadastro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1101, 58</value>
+  </data>
+  <data name="pgCadastro.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pgCadastro.Text" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="&gt;&gt;pgCadastro.Name" xml:space="preserve">
+    <value>pgCadastro</value>
+  </data>
+  <data name="&gt;&gt;pgCadastro.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pgCadastro.Parent" xml:space="preserve">
+    <value>btRelProcesso</value>
+  </data>
+  <data name="&gt;&gt;pgCadastro.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btImportarDados.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btImportarDados.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btImportarDados.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btImportarDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 3</value>
+  </data>
+  <data name="btImportarDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 55</value>
+  </data>
+  <data name="btImportarDados.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btImportarDados.Text" xml:space="preserve">
+    <value>Importar Dados</value>
+  </data>
+  <data name="&gt;&gt;btImportarDados.Name" xml:space="preserve">
+    <value>btImportarDados</value>
+  </data>
+  <data name="&gt;&gt;btImportarDados.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btImportarDados.Parent" xml:space="preserve">
+    <value>pgRelatorio</value>
+  </data>
+  <data name="&gt;&gt;btImportarDados.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btAbrirPDF.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btAbrirPDF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btAbrirPDF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btAbrirPDF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 3</value>
+  </data>
+  <data name="btAbrirPDF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 55</value>
+  </data>
+  <data name="btAbrirPDF.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btAbrirPDF.Text" xml:space="preserve">
+    <value>Abrir Pdf</value>
+  </data>
+  <data name="&gt;&gt;btAbrirPDF.Name" xml:space="preserve">
+    <value>btAbrirPDF</value>
+  </data>
+  <data name="&gt;&gt;btAbrirPDF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btAbrirPDF.Parent" xml:space="preserve">
+    <value>pgRelatorio</value>
+  </data>
+  <data name="&gt;&gt;btAbrirPDF.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btProcessoRel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btProcessoRel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btProcessoRel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btProcessoRel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="btProcessoRel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 55</value>
+  </data>
+  <data name="btProcessoRel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btProcessoRel.Text" xml:space="preserve">
+    <value>Rel. Processo</value>
+  </data>
+  <data name="&gt;&gt;btProcessoRel.Name" xml:space="preserve">
+    <value>btProcessoRel</value>
+  </data>
+  <data name="&gt;&gt;btProcessoRel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btProcessoRel.Parent" xml:space="preserve">
+    <value>pgRelatorio</value>
+  </data>
+  <data name="&gt;&gt;btProcessoRel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pgRelatorio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="pgRelatorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="pgRelatorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1101, 58</value>
+  </data>
+  <data name="pgRelatorio.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pgRelatorio.Text" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="&gt;&gt;pgRelatorio.Name" xml:space="preserve">
+    <value>pgRelatorio</value>
+  </data>
+  <data name="&gt;&gt;pgRelatorio.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pgRelatorio.Parent" xml:space="preserve">
+    <value>btRelProcesso</value>
+  </data>
+  <data name="&gt;&gt;pgRelatorio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btRelProcesso.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btRelProcesso.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 60</value>
+  </data>
+  <data name="btRelProcesso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1109, 100</value>
+  </data>
+  <data name="btRelProcesso.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btRelProcesso.Name" xml:space="preserve">
+    <value>btRelProcesso</value>
+  </data>
+  <data name="&gt;&gt;btRelProcesso.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btRelProcesso.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btRelProcesso.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 160</value>
+  </data>
+  <data name="splitContainer.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Name" xml:space="preserve">
+    <value>splitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Name" xml:space="preserve">
+    <value>splitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1109, 338</value>
+  </data>
+  <data name="splitContainer.SplitterDistance" type="System.Int32, mscorlib">
+    <value>308</value>
+  </data>
+  <data name="splitContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Name" xml:space="preserve">
+    <value>splitContainer</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1149, 518</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultLocation</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Advocacia</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormPrincipal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>
